@@ -69,3 +69,17 @@ body{
   margin-left: 10px;
   column-gap: 20px;
 }
+
+@media (max-width: 900px){
+  #heroes,#villains{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px){
+  #heroes,#villains{
+    grid-template-columns: 1fr ;
+  }
+}
+
+
