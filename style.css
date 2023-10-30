@@ -1,4 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(42, 42, 42);
+}
 .footer{
   margin-left : 80px;
   font-size : 18px;
+}
+.container{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  
+}
+#heroes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  margin-left: 20px;
+  column-gap: 20px;
+}
+
+.cardimg{
+  height: 150px;
+}
+
+.card:hover{
+  background-color: #2b2727;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px white;
+}
+.card{
+  background-color: white;
+}
+#score{
+  color: white;
+}
+.name{
+  font-size: 20px;
+}
+.strength{
+  font-size: 40px;
+}
+
+#score{
+  text-align: center;
+  font-size: 90px;
+  font-weight: 400;
+}
+.card{
+  border: 1px solid #D4D4D4;
+  width: 170px;
+  text-align: center;
+  height: 250px;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+
+#villains{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  margin-right: 300px;
+  margin-left: 10px;
+  column-gap: 20px;
 }
